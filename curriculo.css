@@ -1,0 +1,128 @@
+body {
+    background-color: #D33E43;
+    padding: 6px;
+}
+.barra-menu {
+    background-color: #342E37;
+    display: flex;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+  
+  .item-1 {
+    color: white;
+    background-color: transparent;
+    font-size: 18px;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 14px 20px;
+  }
+  .item-2 {
+    font-weight: 600;
+  }
+  .item-1:hover {
+    background-color: #D33E43;
+  }
+  #biografia{
+    width: 450px; 
+    height: 15px;
+    margin-left: 20px;
+  }
+  #idiomas{
+    width: 450px; 
+    height: 15px;
+    margin-left: 20px;
+    margin-top: 200px;
+  }
+  #certificados{
+    width: 450px; 
+    height: 15px;
+    margin-top: 300px;
+    margin-left: 20px;
+  }
+  #formacao{
+    width: 450px; 
+    height: 15px;
+    margin-left: 20px;
+    margin-top: 150px;
+  }
+  #conhecimentos{
+    width: 450px; 
+    height: 15px;
+    margin-left: 20px;
+    margin-top: 120px;
+  }
+  p{
+      font-family: Impact;
+      color: ivory;
+      text-align: justify;
+      letter-spacing: 2px;
+  }
+  p:hover{
+    color: #342E37;
+  }
+  h2{
+    font-family: Impact;
+    color: ivory;
+    text-align: justify;
+    letter-spacing: 1px;
+    font-weight: 300;
+  }
+  h2:hover{
+    color: #342E37;
+  }
+  a{
+      text-decoration: none;
+      font-family: Impact;
+  }
+  .rodape{
+    background-color: #342E37;
+        height: 90px;
+        width: 100%;
+        top: 251%;
+        right: 120px;
+        left: 0px;
+        margin: 0 auto;
+        position: absolute; 
+  }
+  li{
+    font-family: Impact;
+      color: ivory;
+      text-align: justify;
+      letter-spacing: 2px;
+  }
+  li:hover{
+    color: #342E37;
+  }
+  .container{
+    flex-direction: wrap;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 500px;
+    margin-bottom: 100px;
+  }
+  img{
+    height: 60px;
+    width: 80px;
+  }
+ .perfil{
+   height: 200px;
+   width: 230px;
+   margin-left: 20px;
+   border-radius: 10px;
+   border-style: solid;
+   border-color: black;
+ }
+ .perfil:hover{
+  box-shadow: #342E37;
+  border-color: ivory;
+  border-style: solid groove;
+ }
+ img:hover{
+background-color: #D33E43;
+border-radius: 10px;
+ }
+ 
+  
+
